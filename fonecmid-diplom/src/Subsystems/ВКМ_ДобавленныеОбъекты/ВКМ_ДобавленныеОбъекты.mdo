@@ -6,9 +6,9 @@
     <value>ВКМ: Добавленные объекты</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>Enum.ВидыДоговоровКонтрагентов</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>CommonModule.ВКМ_РаботаСФормами</content>
   <content>CommonModule.ПодключаемыеКоманды</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
 </mdclass:Subsystem>
