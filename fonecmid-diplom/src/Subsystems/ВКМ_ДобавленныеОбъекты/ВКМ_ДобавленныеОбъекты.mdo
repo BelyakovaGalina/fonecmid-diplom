@@ -11,4 +11,5 @@
   <content>CommonModule.ВКМ_РаботаСФормами</content>
   <content>CommonModule.ПодключаемыеКоманды</content>
   <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
 </mdclass:Subsystem>

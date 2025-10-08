@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <items xsi:type="form:FormGroup">
     <name>СписокКомпоновщикНастроекПользовательскиеНастройки</name>
     <id>1</id>
@@ -48,19 +48,20 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>Проведен</name>
-      <id>22</id>
+      <name>ЕстьФайлы</name>
+      <id>46</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Posted</segments>
+        <segments>Список.ЕстьФайлы</segments>
       </dataPath>
+      <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ПроведенРасширеннаяПодсказка</name>
-        <id>24</id>
+        <name>ЕстьФайлыРасширеннаяПодсказка</name>
+        <id>48</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -69,57 +70,31 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПроведенКонтекстноеМеню</name>
-        <id>23</id>
+        <name>ЕстьФайлыКонтекстноеМеню</name>
+        <id>47</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>LabelField</type>
+      <type>PictureField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
+      <headerPicture xsi:type="core:PictureRef">
+        <picture>CommonPicture.Скрепка</picture>
+      </headerPicture>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
+      <extInfo xsi:type="form:ImageFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+        <valuesPicture xsi:type="core:PictureRef">
+          <picture>CommonPicture.КоллекцияСкрепка</picture>
+        </valuesPicture>
         <border xsi:type="core:BorderDef">
+          <style>Single</style>
           <width>1</width>
         </border>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>ПометкаУдаления</name>
-      <id>25</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.DeletionMark</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ПометкаУдаленияРасширеннаяПодсказка</name>
-        <id>27</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ПометкаУдаленияКонтекстноеМеню</name>
-        <id>26</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
+        <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -131,7 +106,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Number</segments>
+        <segments>Список.Номер</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -168,7 +143,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Date</segments>
+        <segments>Список.Дата</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДатаРасширеннаяПодсказка</name>
@@ -382,7 +357,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Ref</segments>
+        <segments>Список.Ссылка</segments>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаРасширеннаяПодсказка</name>
@@ -577,15 +552,138 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.Ref</segments>
+      <segments>Список.Ссылка</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ 
+       ВКМ_ОбслуживаниеКлиентов.Ссылка, 
+       ВКМ_ОбслуживаниеКлиентов.ПометкаУдаления, 
+       ВКМ_ОбслуживаниеКлиентов.Номер, 
+       ВКМ_ОбслуживаниеКлиентов.Дата, 
+       ВКМ_ОбслуживаниеКлиентов.Проведен, 
+       ВКМ_ОбслуживаниеКлиентов.Клиент, 
+       ВКМ_ОбслуживаниеКлиентов.Договор, 
+       ВКМ_ОбслуживаниеКлиентов.Специалист, 
+       ВКМ_ОбслуживаниеКлиентов.ДатаПроведенияРабот, 
+       ВКМ_ОбслуживаниеКлиентов.ВремяНачалаРабот, 
+       ВКМ_ОбслуживаниеКлиентов.ВремяОкончанияРабот, 
+       ВКМ_ОбслуживаниеКлиентов.ОписаниеПроблемы, 
+       ВКМ_ОбслуживаниеКлиентов.Комментарий, 
+       ВКМ_ОбслуживаниеКлиентов.ВыполненныеРаботы.*, 
+       ВКМ_ОбслуживаниеКлиентов.МоментВремени,
+		ВЫБОР
+			КОГДА НаличиеФайлов.ЕстьФайлы ЕСТЬ NULL
+				ТОГДА 0
+			КОГДА НаличиеФайлов.ЕстьФайлы
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ КАК ЕстьФайлы
+ ИЗ 
+       Документ.ВКМ_ОбслуживаниеКлиентов
+ КАК 
+       ВКМ_ОбслуживаниеКлиентов
+       ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеФайлов КАК НаличиеФайлов
+		ПО ВКМ_ОбслуживаниеКлиентов.Ссылка = НаличиеФайлов.ОбъектСФайлами       
+</queryText>
       <mainTable>Document.ВКМ_ОбслуживаниеКлиентов</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Номер</dataPath>
+        <field>Номер</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дата</dataPath>
+        <field>Дата</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>МоментВремени</dataPath>
+        <field>МоментВремени</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Клиент</dataPath>
+        <field>Клиент</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Договор</dataPath>
+        <field>Договор</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Специалист</dataPath>
+        <field>Специалист</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаПроведенияРабот</dataPath>
+        <field>ДатаПроведенияРабот</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВремяНачалаРабот</dataPath>
+        <field>ВремяНачалаРабот</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВремяОкончанияРабот</dataPath>
+        <field>ВремяОкончанияРабот</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОписаниеПроблемы</dataPath>
+        <field>ОписаниеПроблемы</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Комментарий</dataPath>
+        <field>Комментарий</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВыполненныеРаботы.Ссылка</dataPath>
+        <field>ВыполненныеРаботы.Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВыполненныеРаботы.НомерСтроки</dataPath>
+        <field>ВыполненныеРаботы.НомерСтроки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВыполненныеРаботы.ОписаниеРабот</dataPath>
+        <field>ВыполненныеРаботы.ОписаниеРабот</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВыполненныеРаботы.ФактическиПотраченоЧасов</dataPath>
+        <field>ВыполненныеРаботы.ФактическиПотраченоЧасов</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВыполненныеРаботы.ЧасыКОплатеКлиенту</dataPath>
+        <field>ВыполненныеРаботы.ЧасыКОплатеКлиенту</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
+        <dataPath>ВыполненныеРаботы</dataPath>
+        <field>ВыполненныеРаботы</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьФайлы</dataPath>
+        <field>ЕстьФайлы</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Есть файлы</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
     </extInfo>
   </attributes>
   <commandInterface>
