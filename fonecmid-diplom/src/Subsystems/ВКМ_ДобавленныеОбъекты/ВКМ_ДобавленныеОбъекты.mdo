@@ -12,4 +12,6 @@
   <content>CommonModule.ПодключаемыеКоманды</content>
   <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
   <content>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
+  <content>Role.ВКМ_ЧтениеДокументовОбслуживаниеКлиентов</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживаниеКлиентов</content>
 </mdclass:Subsystem>
