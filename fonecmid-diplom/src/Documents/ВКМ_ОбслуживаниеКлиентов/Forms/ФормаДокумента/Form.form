@@ -165,7 +165,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>Договор</name>
-        <id>10</id>
+        <id>68</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -176,7 +176,7 @@
         </dataPath>
         <extendedTooltip>
           <name>ДоговорРасширеннаяПодсказка</name>
-          <id>12</id>
+          <id>70</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -186,11 +186,11 @@
         </extendedTooltip>
         <contextMenu>
           <name>ДоговорКонтекстноеМеню</name>
-          <id>11</id>
+          <id>69</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -201,12 +201,6 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
-          <choiceParameterLinks>
-            <name>Отбор.ВКМ_НачалоДействияДоговора</name>
-            <datapath xsi:type="form:DataPath">
-              <segments>Объект.Клиент</segments>
-            </datapath>
-          </choiceParameterLinks>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -951,7 +945,14 @@
     <savedData>true</savedData>
   </attributes>
   <commandInterface>
-    <navigationPanel/>
+    <navigationPanel>
+      <cmiFragmentRecord>
+        <command>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenByRecorder</command>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
+    </navigationPanel>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">

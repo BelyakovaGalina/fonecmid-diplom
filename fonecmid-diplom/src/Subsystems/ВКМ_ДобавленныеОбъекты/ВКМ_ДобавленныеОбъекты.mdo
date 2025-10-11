@@ -14,4 +14,6 @@
   <content>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
   <content>Role.ВКМ_ЧтениеДокументовОбслуживаниеКлиентов</content>
   <content>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживаниеКлиентов</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Catalog.ВКМ_ФизическиеЛица</content>
 </mdclass:Subsystem>
