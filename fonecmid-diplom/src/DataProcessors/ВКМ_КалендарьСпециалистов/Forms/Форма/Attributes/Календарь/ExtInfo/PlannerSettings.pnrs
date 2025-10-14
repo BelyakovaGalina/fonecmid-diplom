@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<planner:PlannerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:planner="http://g5.1c.ru/v8/dt/planner/model">
+  <items>
+    <value xsi:type="core:UndefinedValue"/>
+    <begin>2025-10-13T01:00:00</begin>
+    <end>2025-10-13T04:00:00</end>
+    <text>Встреча</text>
+    <border xsi:type="core:BorderDef">
+      <style>Single</style>
+      <width>1</width>
+    </border>
+    <font xsi:type="core:AutoFont"/>
+    <replacementDate>0001-01-01T00:00:00</replacementDate>
+    <itemId>ae739bef-ff00-400d-afa0-0405bb2c1b66</itemId>
+  </items>
+  <showWrappedHeaders>true</showWrappedHeaders>
+  <showCurrentDate>true</showCurrentDate>
+  <wrappedTimeScaleHeaderFormat>
+    <key>#</key>
+    <value>DLF=&quot;DD&quot;</value>
+  </wrappedTimeScaleHeaderFormat>
+  <wrappedTimeScaleHeaderFormat>
+    <key>ru</key>
+    <value>DLF=&quot;DD&quot;</value>
+  </wrappedTimeScaleHeaderFormat>
+  <periodicVariantRepetition>1</periodicVariantRepetition>
+  <periodicVariantUnit>Day</periodicVariantUnit>
+  <border xsi:type="core:BorderDef">
+    <style>Single</style>
+    <width>1</width>
+  </border>
+  <font xsi:type="core:AutoFont"/>
+  <beginOfRepresentationPeriod>0001-01-01T00:00:00</beginOfRepresentationPeriod>
+  <endOfRepresentationPeriod>0001-01-01T00:00:00</endOfRepresentationPeriod>
+  <itemsTimeRepresentation>BeginAndEndTime</itemsTimeRepresentation>
+  <timeScale>
+    <placement>Left</placement>
+    <levels>
+      <measure>Day</measure>
+      <interval>1</interval>
+      <show>true</show>
+      <line>
+        <width>1</width>
+        <style>Dotted</style>
+      </line>
+      <labels/>
+      <showPereodicalLabels>true</showPereodicalLabels>
+    </levels>
+    <levels>
+      <measure>Hour</measure>
+      <interval>1</interval>
+      <show>true</show>
+      <line>
+        <width>1</width>
+        <style>Solid</style>
+      </line>
+      <dayFormatRule>MonthDayWeekDay</dayFormatRule>
+      <format>
+        <key>#</key>
+        <value>DF=&quot;HH:mm&quot;</value>
+      </format>
+      <format>
+        <key>ru</key>
+        <value>DF=&quot;HH:mm&quot;</value>
+      </format>
+      <labels/>
+      <showPereodicalLabels>true</showPereodicalLabels>
+    </levels>
+  </timeScale>
+  <dimensions/>
+  <periods>
+    <begin>2025-10-13T00:00:00</begin>
+    <end>2025-10-13T23:59:59</end>
+  </periods>
+  <itemsBehaviorWhenSpaceInsufficient>ShowAllItems</itemsBehaviorWhenSpaceInsufficient>
+  <fixDimensionsHeader>true</fixDimensionsHeader>
+  <fixTimeScaleHeader>true</fixTimeScaleHeader>
+</planner:PlannerSettings>
