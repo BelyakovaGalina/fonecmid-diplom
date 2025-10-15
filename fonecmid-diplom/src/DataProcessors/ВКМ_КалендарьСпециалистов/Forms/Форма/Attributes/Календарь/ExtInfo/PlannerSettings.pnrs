@@ -13,6 +13,7 @@
     <replacementDate>0001-01-01T00:00:00</replacementDate>
     <itemId>ae739bef-ff00-400d-afa0-0405bb2c1b66</itemId>
   </items>
+  <alignItemBoundariesByTimeScale>true</alignItemBoundariesByTimeScale>
   <showWrappedHeaders>true</showWrappedHeaders>
   <showWrappedTimeScaleHeaders>true</showWrappedTimeScaleHeaders>
   <showCurrentDate>true</showCurrentDate>
@@ -29,14 +30,29 @@
   <periodicVariantRepetition>24</periodicVariantRepetition>
   <periodicVariantUnit>Hour</periodicVariantUnit>
   <border xsi:type="core:BorderDef">
-    <style>Single</style>
+    <style>Indented</style>
     <width>1</width>
   </border>
+  <borderColor xsi:type="core:ColorRef">
+    <color>Style.ПоясняющийТекст</color>
+  </borderColor>
+  <lineColor xsi:type="core:ColorDef">
+    <red>212</red>
+    <green>202</green>
+    <blue>147</blue>
+  </lineColor>
+  <backColor xsi:type="core:ColorRef">
+    <color>Style.ReportGroup2BackColor</color>
+  </backColor>
+  <textColor xsi:type="core:ColorRef">
+    <color>Style.FieldTextColor</color>
+  </textColor>
   <font xsi:type="core:AutoFont"/>
   <beginOfRepresentationPeriod>0001-01-01T00:00:00</beginOfRepresentationPeriod>
   <endOfRepresentationPeriod>0001-01-01T00:00:00</endOfRepresentationPeriod>
   <itemsTimeRepresentation>BeginAndEndTime</itemsTimeRepresentation>
   <timeScale>
+    <placement>Left</placement>
     <levels>
       <measure>Hour</measure>
       <interval>1</interval>
@@ -55,6 +71,9 @@
         <value>DF=&quot;HH:mm&quot;</value>
       </format>
       <labels/>
+      <backColor xsi:type="core:ColorRef">
+        <color>Style.ПравоПросмотраФон</color>
+      </backColor>
       <showPereodicalLabels>true</showPereodicalLabels>
     </levels>
   </timeScale>
@@ -64,6 +83,6 @@
     <end>2025-10-13T23:59:59</end>
   </periods>
   <itemsBehaviorWhenSpaceInsufficient>ShowAllItems</itemsBehaviorWhenSpaceInsufficient>
-  <fixDimensionsHeader>true</fixDimensionsHeader>
-  <fixTimeScaleHeader>true</fixTimeScaleHeader>
+  <autoMinRowHeight>false</autoMinRowHeight>
+  <minRowHeight>3</minRowHeight>
 </planner:PlannerSettings>

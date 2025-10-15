@@ -36,8 +36,9 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
+      <width>25</width>
       <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>false</horizontalStretch>
       <wrap>true</wrap>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
@@ -77,6 +78,14 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:PlannerFieldExtInfo">
+      <handlers>
+        <event>OnCurrentRepresentationPeriodChange</event>
+        <name>КалендарьПриСменеТекущегоПериодаОтображения</name>
+      </handlers>
+      <handlers>
+        <event>BeforeStartQuickEdit</event>
+        <name>КалендарьПередНачаломБыстрогоРедактирования</name>
+      </handlers>
       <width>50</width>
       <autoMaxWidth>true</autoMaxWidth>
       <height>10</height>
@@ -94,10 +103,6 @@
   <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
