@@ -14,6 +14,7 @@
     <itemId>ae739bef-ff00-400d-afa0-0405bb2c1b66</itemId>
   </items>
   <showWrappedHeaders>true</showWrappedHeaders>
+  <showWrappedTimeScaleHeaders>true</showWrappedTimeScaleHeaders>
   <showCurrentDate>true</showCurrentDate>
   <wrappedTimeScaleHeaderFormat>
     <key>#</key>
@@ -23,8 +24,10 @@
     <key>ru</key>
     <value>DLF=&quot;DD&quot;</value>
   </wrappedTimeScaleHeaderFormat>
-  <periodicVariantRepetition>1</periodicVariantRepetition>
-  <periodicVariantUnit>Day</periodicVariantUnit>
+  <timeScaleWrapBeginIndent>8</timeScaleWrapBeginIndent>
+  <timeScaleWrapEndIndent>5</timeScaleWrapEndIndent>
+  <periodicVariantRepetition>24</periodicVariantRepetition>
+  <periodicVariantUnit>Hour</periodicVariantUnit>
   <border xsi:type="core:BorderDef">
     <style>Single</style>
     <width>1</width>
@@ -34,18 +37,6 @@
   <endOfRepresentationPeriod>0001-01-01T00:00:00</endOfRepresentationPeriod>
   <itemsTimeRepresentation>BeginAndEndTime</itemsTimeRepresentation>
   <timeScale>
-    <placement>Left</placement>
-    <levels>
-      <measure>Day</measure>
-      <interval>1</interval>
-      <show>true</show>
-      <line>
-        <width>1</width>
-        <style>Dotted</style>
-      </line>
-      <labels/>
-      <showPereodicalLabels>true</showPereodicalLabels>
-    </levels>
     <levels>
       <measure>Hour</measure>
       <interval>1</interval>
