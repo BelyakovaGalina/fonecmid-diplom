@@ -944,6 +944,48 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <parameters>
+    <name>Специалист</name>
+    <valueType>
+      <types>CatalogRef.ВКМ_ФизическиеЛица</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ДатаПроведенияРабот</name>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ВремяНачалаРабот</name>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ВремяОкончанияРабот</name>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ОписаниеПроблемы</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
