@@ -1,2 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi"/>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document.ВКМ_ОбслуживаниеКлиентов.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_ФизическиеЛица.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_ФизическиеЛица.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.ВКМ_МассовоеСозданиеАктов.StandardCommand.Open</commands>
+      <commands>DataProcessor.ВКМ_КалендарьСпециалистов.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_НоменклатураАбонентскаяПлата.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_НоменклатураРаботыСпециалиста.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_ИдентификаторГруппыДляОповещения.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_ТокенУправленияТелеграмБотом.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

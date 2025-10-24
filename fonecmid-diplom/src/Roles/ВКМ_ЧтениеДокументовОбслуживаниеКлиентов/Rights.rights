@@ -18,6 +18,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ВКМ_КалендарьСпециалистов</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы.Attribute.Зашифрован</name>
 		<right>
 			<name>Edit</name>
@@ -217,6 +228,21 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ФизическиеЛица</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ДатаПодписи</name>
 		<right>
 			<name>Edit</name>
@@ -291,6 +317,17 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -408,6 +445,13 @@
 		</right>
 		<right>
 			<name>AnalyticsSystemClient</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.ВКМ_ОбслуживаниеКлиентов</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
