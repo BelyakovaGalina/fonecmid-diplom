@@ -46,4 +46,5 @@
   <content>CommandGroup.ВКМ_Настройки</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
 </mdclass:Subsystem>
