@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5fbd613-76d1-474a-8dbc-794ad153f00e">
+  <name>ВКМ_ЧтениеГрафиковОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ: Чтение графиков отпусков</value>
+  </synonym>
+</mdclass:Role>
