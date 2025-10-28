@@ -48,4 +48,8 @@
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеНачисленийВыплат</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеГрафиковОтпусков</content>
+  <content>Role.ВКМ_ЧтениеГрафиковОтпусков</content>
+  <content>Role.ВКМ_ЧтениеНачисленийВыплат</content>
 </mdclass:Subsystem>
