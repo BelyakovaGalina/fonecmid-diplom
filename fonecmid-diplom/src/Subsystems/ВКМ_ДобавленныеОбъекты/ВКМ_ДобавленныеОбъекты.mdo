@@ -52,4 +52,10 @@
   <content>Role.ВКМ_ДобавлениеИзменениеГрафиковОтпусков</content>
   <content>Role.ВКМ_ЧтениеГрафиковОтпусков</content>
   <content>Role.ВКМ_ЧтениеНачисленийВыплат</content>
+  <content>Report.ВКМ_ВыборкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>AccumulationRegister.ВКМ_ВыставленныеАкты</content>
+  <content>AccumulationRegister.ВКМ_ИспользованиеДнейОтпуска</content>
 </mdclass:Subsystem>

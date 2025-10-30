@@ -38,4 +38,10 @@
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Role.ВКМ_ДобавлениеИзменениеНачисленийВыплат</content>
+  <content>Report.ВКМ_ВыборкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>AccumulationRegister.ВКМ_ВыставленныеАкты</content>
+  <content>AccumulationRegister.ВКМ_ИспользованиеДнейОтпуска</content>
 </mdclass:Subsystem>

@@ -32,7 +32,8 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ВКМ_ГрафикОтпусков.Form.ФормаДокумента</defaultObjectForm>
-  <posting>Deny</posting>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.ВКМ_ИспользованиеДнейОтпуска</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="ee581737-33b5-4a09-95d1-3bc44b521b2e">
