@@ -1310,6 +1310,10 @@
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.ВКМ_ВыборкаСпециалистов</reports>
+  <reports>Report.ВКМ_АнализВыставленныхАктов</reports>
+  <reports>Report.ВКМ_РасчетыССотрудниками</reports>
+  <reports>Report.ВКМ_РасходЗапланированныхОтпусков</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
@@ -1417,6 +1421,8 @@
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВыставленныеАкты</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ИспользованиеДнейОтпуска</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</chartsOfCalculationTypes>
