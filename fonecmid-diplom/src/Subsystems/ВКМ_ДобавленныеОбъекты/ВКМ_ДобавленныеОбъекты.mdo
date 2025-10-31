@@ -58,4 +58,7 @@
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
   <content>AccumulationRegister.ВКМ_ВыставленныеАкты</content>
   <content>AccumulationRegister.ВКМ_ИспользованиеДнейОтпуска</content>
+  <content>Role.ВКМ_ОтчетыПоВыработкеСпециалистов</content>
+  <content>Role.ВКМ_ОтчетыПоАнализуВыставленныхАктов</content>
+  <content>Role.ВКМ_ОтчетыПоЗарплатеИОтпускам</content>
 </mdclass:Subsystem>

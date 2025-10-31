@@ -19,7 +19,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>ООО Нетология</vendor>
-  <version>1.0.1.4</version>
+  <version>1.0.1.2</version>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
@@ -632,6 +632,9 @@
   <roles>Role.ВКМ_ДобавлениеИзменениеГрафиковОтпусков</roles>
   <roles>Role.ВКМ_ЧтениеНачисленийВыплат</roles>
   <roles>Role.ВКМ_ЧтениеГрафиковОтпусков</roles>
+  <roles>Role.ВКМ_ОтчетыПоВыработкеСпециалистов</roles>
+  <roles>Role.ВКМ_ОтчетыПоАнализуВыставленныхАктов</roles>
+  <roles>Role.ВКМ_ОтчетыПоЗарплатеИОтпускам</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>

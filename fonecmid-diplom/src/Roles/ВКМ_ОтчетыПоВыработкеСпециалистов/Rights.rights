@@ -4,43 +4,21 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Document.ВКМ_ГрафикОтпусков.TabularSection.ОтпускаСотрудников.Attribute.Дни</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.Resource.СуммаКОплате</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_ГрафикОтпусков.TabularSection.ОтпускаСотрудников.Attribute.Сотрудник</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.Dimension.Сотрудник</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_ГрафикОтпусков.Attribute.Комментарий</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Пользователи</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ГрафикОтпусков.TabularSection.ОтпускаСотрудников.Attribute.ДатаНачала</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.Resource.ЧасовКОплате</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -62,7 +40,70 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВКМ_ИспользованиеДнейОтпуска</name>
+		<name>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Predefined</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Ref</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.IsFolder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Owner</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Parent</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Description</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Code</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -73,64 +114,28 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_ГрафикОтпусков.TabularSection.ОтпускаСотрудников</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.StandardAttribute.Active</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_ГрафикОтпусков.Attribute.Ответственный</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.StandardAttribute.LineNumber</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_ГрафикОтпусков</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ГрафикОтпусков.StandardAttribute.Posted</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.StandardAttribute.Recorder</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_ГрафикОтпусков.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ГрафикОтпусков.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ГрафикОтпусков.StandardAttribute.Date</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ГрафикОтпусков.StandardAttribute.Number</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.StandardAttribute.Period</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -183,24 +188,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_ГрафикОтпусков.TabularSection.ОтпускаСотрудников.Attribute.ПревышениеДней</name>
+		<name>Report.ВКМ_ВыборкаСпециалистов</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>Use</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ГрафикОтпусков.TabularSection.ОтпускаСотрудников.Attribute.ДатаОкончания</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ГрафикОтпусков.Attribute.Год</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 </Rights>
